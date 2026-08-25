@@ -1,25 +1,11 @@
-<!--
-  HYPRLUV Slideshow
-  https://templatemo.com/tm-627-hyprluv-slideshow
--->
-<!DOCTYPE html>
-<!--
-  TM-627 / HYPRLUV
-  Electronic Press Kit (EPK) slideshow template
-  Free HTML template by TemplateMo (https://templatemo.com)
-  Single file, vanilla JS. No build step, no dependencies.
-  Loud Y2K / editorial poster aesthetic. Hot orange, acid lime, black.
-  Replace all demo copy, stats, dates, and contact details before publishing.
--->
-<html lang="ar" dir="rtl">
-<head>
+<!DOCTYPE html><html lang="ar" dir="rtl"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>خندقاوي كار | برمجة وصيانة السيارات</title>
 <meta name="description" content="خندقاوي كار: بوابتك العربية لبرمجة السيارات وصيانتها وكهرباء السيارات والبرامج التعليمية.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Changa:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&amp;family=Changa:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
 <style>
   /* TOKENS */
   :root{
@@ -573,23 +559,23 @@
 
 <!-- ===================== TOP BAR ===================== -->
 <header class="topbar">
-  <a href="./index.html" class="mark" data-goto="0" aria-label="KANDGAWY CAR - الصفحة الرئيسية"><img class="channel-logo" src="channel-logo.png" onerror="this.onerror=null;this.src='pic-01.jpg'" alt="شعار KANDGAWY CAR"><span class="brand-name"><span>KANDGAWY <b>CAR</b></span><span class="brand-sub">AUTO DIAGNOSTICS</span></span><span class="dot"></span></a>
+  <a href="./index.html" class="mark" data-goto="0" aria-label="KANDGAWY CAR - الصفحة الرئيسية"><img class="channel-logo" src="pic-01.jpg" onerror="this.onerror=null;this.src='pic-01.jpg'" alt="شعار KANDGAWY CAR"><span class="brand-name"><span>KANDGAWY <b>CAR</b></span><span class="brand-sub">AUTO DIAGNOSTICS</span></span><span class="dot"></span></a>
   <div class="topright">
     <span class="counter"><span class="now">01</span> / 09</span>
     <button class="menu-btn" id="menuBtn" aria-haspopup="true" aria-expanded="false">القائمة +</button>
   </div>
 </header>
-<div class="progress" aria-hidden="true"><i id="progBar"></i></div>
+<div class="progress" aria-hidden="true"><i id="progBar" style="width: 11.1111%;"></i></div>
 
 <!-- ===================== DECK ===================== -->
 <main class="deck" id="deck">
-  <div class="stage-bg" id="stageBg" aria-hidden="true"></div>
+  <div class="stage-bg" id="stageBg" aria-hidden="true" style="background-color: rgb(11, 11, 11);"></div>
 
   <!-- ============ SLIDE 1 : COVER ============ -->
   <section class="slide s-ink active" data-slide="0">
     <div class="inner scrollable">
       <div class="wrap cover">
-        <div class="toprow" data-reveal>
+        <div class="toprow in" data-reveal="">
           <span class="kicker hl-lime">منصة خبراء السيارات · 2026</span>
           <div class="stickwrap">
             <span class="sticker o">فحص وبرمجة</span>
@@ -597,7 +583,7 @@
           </div>
         </div>
 
-        <div class="data-banner" data-reveal>
+        <div class="data-banner in" data-reveal="">
           <div class="banner-copy">
             <span class="kicker gold">Automotive Data Platform</span>
             <h1 class="huge">خندقاوي <span class="o">كار</span></h1>
@@ -617,14 +603,21 @@
       </div>
 
       <!-- in-flow bottom marquee -->
-      <div class="marquee bleed" data-reveal style="margin-top:20px;border-bottom:none;background:var(--lime);color:var(--ink)">
-        <div class="track">
-          <span>خندقاوي كار · برمجة · صيانة · كهرباء سيارات</span><span class="s">&#10022;</span>
-          <span>حلول تشخيص ذكية لكل فني وطالب</span><span class="s">&#10022;</span>
-          <span>المعرفة تبدأ من جهاز الفحص</span><span class="s">&#10022;</span>
-          <span>خندقاوي كار · برمجة · صيانة · كهرباء سيارات</span><span class="s">&#10022;</span>
-          <span>حلول تشخيص ذكية لكل فني وطالب</span><span class="s">&#10022;</span>
-          <span>المعرفة تبدأ من جهاز الفحص</span><span class="s">&#10022;</span>
+      <div class="marquee bleed in" data-reveal="" style="margin-top:20px;border-bottom:none;background:var(--lime);color:var(--ink)">
+        <div class="track" data-base="
+          &lt;span&gt;خندقاوي كار · برمجة · صيانة · كهرباء سيارات&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;✦&lt;/span&gt;
+          &lt;span&gt;حلول تشخيص ذكية لكل فني وطالب&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;✦&lt;/span&gt;
+          &lt;span&gt;المعرفة تبدأ من جهاز الفحص&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;✦&lt;/span&gt;
+          &lt;span&gt;خندقاوي كار · برمجة · صيانة · كهرباء سيارات&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;✦&lt;/span&gt;
+          &lt;span&gt;حلول تشخيص ذكية لكل فني وطالب&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;✦&lt;/span&gt;
+          &lt;span&gt;المعرفة تبدأ من جهاز الفحص&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;✦&lt;/span&gt;
+        " data-fill-w="384" style="animation-duration: 21.4s;">
+          <span>خندقاوي كار · برمجة · صيانة · كهرباء سيارات</span><span class="s">✦</span>
+          <span>حلول تشخيص ذكية لكل فني وطالب</span><span class="s">✦</span>
+          <span>المعرفة تبدأ من جهاز الفحص</span><span class="s">✦</span>
+          <span>خندقاوي كار · برمجة · صيانة · كهرباء سيارات</span><span class="s">✦</span>
+          <span>حلول تشخيص ذكية لكل فني وطالب</span><span class="s">✦</span>
+          <span>المعرفة تبدأ من جهاز الفحص</span><span class="s">✦</span>
         </div>
       </div>
     </div>
@@ -634,10 +627,10 @@
   <section class="slide s-orange" data-slide="1">
     <div class="inner scrollable">
       <div class="wrap">
-        <span class="kicker" data-reveal>02 / خدماتنا</span>
-        <h2 class="big" data-reveal style="margin:6px 0 16px">كل ما تحتاجه<br>لسيارتك</h2>
+        <span class="kicker" data-reveal="">02 / خدماتنا</span>
+        <h2 class="big" data-reveal="" style="margin:6px 0 16px">كل ما تحتاجه<br>لسيارتك</h2>
         <div class="bio-grid">
-          <div data-reveal>
+          <div data-reveal="">
             <p class="lead" style="margin-bottom:14px">
               خندقاوي كار مجتمع عربي للفنيين والمهتمين بالسيارات. نقدم محتوى تطبيقيًا وأدوات تساعدك على فهم الأعطال وتشخيصها وإصلاحها بثقة.
             </p>
@@ -652,7 +645,7 @@
               <span class="tag">مخططات وأسلاك</span>
             </div>
           </div>
-          <div class="bio-meta" data-reveal>
+          <div class="bio-meta" data-reveal="">
             <div class="meta-card">
               <div class="k">المجال</div>
               <div class="v">سيارات · شاحنات · معدات</div>
@@ -675,10 +668,10 @@
   <section class="slide s-ink" data-slide="2">
     <div class="inner scrollable">
       <div class="wrap">
-        <span class="kicker hl-orange" data-reveal>03 / مركز التحميل</span>
-        <h2 class="big hl-lime" data-reveal style="margin:6px 0 14px">برامج وأدوات<br>للفنيين</h2>
+        <span class="kicker hl-orange" data-reveal="">03 / مركز التحميل</span>
+        <h2 class="big hl-lime" data-reveal="" style="margin:6px 0 14px">برامج وأدوات<br>للفنيين</h2>
 
-        <div class="rel-hero" data-reveal>
+        <div class="rel-hero" data-reveal="">
           <div>
             <span class="sticker">مختاراتنا</span>
             <div class="mid hl-lime" style="margin-top:10px">ترسانة التشخيص</div>
@@ -688,11 +681,11 @@
         </div>
 
         <div class="rel-list">
-          <a class="rel-row" data-reveal href="https://www.autel.com/" target="_blank" rel="noopener"><span class="t">Autel MaxiSys</span><span class="ty">تشخيص احترافي</span><span class="yr">تحميل ↗</span></a>
-          <a class="rel-row" data-reveal href="https://www.x431.com/" target="_blank" rel="noopener"><span class="t">Launch X431</span><span class="ty">فحص وبرمجة</span><span class="yr">تحميل ↗</span></a>
-          <a class="rel-row" data-reveal href="https://www.autotuner.com/" target="_blank" rel="noopener"><span class="t">ECU Flash Tools</span><span class="ty">برمجة وحدات</span><span class="yr">تحميل ↗</span></a>
-          <a class="rel-row" data-reveal href="https://www.autodata-group.com/" target="_blank" rel="noopener"><span class="t">AutoData</span><span class="ty">بيانات الصيانة</span><span class="yr">تحميل ↗</span></a>
-          <a class="rel-row" data-reveal href="https://www.allschematics.com/" target="_blank" rel="noopener"><span class="t">Wiring Diagrams</span><span class="ty">مخططات كهرباء</span><span class="yr">تحميل ↗</span></a>
+          <a class="rel-row" data-reveal="" href="https://www.autel.com/" target="_blank" rel="noopener"><span class="t">Autel MaxiSys</span><span class="ty">تشخيص احترافي</span><span class="yr">تحميل ↗</span></a>
+          <a class="rel-row" data-reveal="" href="https://www.x431.com/" target="_blank" rel="noopener"><span class="t">Launch X431</span><span class="ty">فحص وبرمجة</span><span class="yr">تحميل ↗</span></a>
+          <a class="rel-row" data-reveal="" href="https://www.autotuner.com/" target="_blank" rel="noopener"><span class="t">ECU Flash Tools</span><span class="ty">برمجة وحدات</span><span class="yr">تحميل ↗</span></a>
+          <a class="rel-row" data-reveal="" href="https://www.autodata-group.com/" target="_blank" rel="noopener"><span class="t">AutoData</span><span class="ty">بيانات الصيانة</span><span class="yr">تحميل ↗</span></a>
+          <a class="rel-row" data-reveal="" href="https://www.allschematics.com/" target="_blank" rel="noopener"><span class="t">Wiring Diagrams</span><span class="ty">مخططات كهرباء</span><span class="yr">تحميل ↗</span></a>
         </div>
       </div>
     </div>
@@ -702,14 +695,14 @@
   <section class="slide s-lime" data-slide="3">
     <div class="inner scrollable">
       <div class="wrap">
-        <span class="kicker" data-reveal>04 / خدمات خندقاوي</span>
-        <h2 class="big" data-reveal style="margin:6px 0 16px">خدمات ذكية<br>لسيارتك</h2>
-        <div class="service-grid" data-reveal>
+        <span class="kicker" data-reveal="">04 / خدمات خندقاوي</span>
+        <h2 class="big" data-reveal="" style="margin:6px 0 16px">خدمات ذكية<br>لسيارتك</h2>
+        <div class="service-grid" data-reveal="">
           <div class="service-card"><span class="icon">⚡</span><strong>برمجة ECU</strong><small>فحص، تهيئة وبرمجة وحدات التحكم.</small></div>
           <div class="service-card"><span class="icon">🔧</span><strong>صيانة وتشخيص</strong><small>حلول دقيقة للأعطال الميكانيكية والإلكترونية.</small></div>
           <div class="service-card"><span class="icon">🔌</span><strong>كهرباء السيارات</strong><small>تتبع دوائر وأسلاك وحساسات المركبة.</small></div>
         </div>
-        <div class="stat-grid" data-reveal>
+        <div class="stat-grid" data-reveal="">
           <div class="stat"><span class="n">250+</span><span class="l">درس تطبيقي</span></div>
           <div class="stat"><span class="n">80+</span><span class="l">مخطط كهربائي</span></div>
           <div class="stat"><span class="n">35</span><span class="l">برنامج وأداة</span></div>
@@ -717,7 +710,7 @@
           <div class="stat"><span class="n">100%</span><span class="l">شرح عربي</span></div>
           <div class="stat"><span class="n">2026</span><span class="l">تحديثات مستمرة</span></div>
         </div>
-        <p class="mono" data-reveal style="margin-top:14px">محتوى يتجدد باستمرار ليلائم احتياج الفني في الورشة.</p>
+        <p class="mono" data-reveal="" style="margin-top:14px">محتوى يتجدد باستمرار ليلائم احتياج الفني في الورشة.</p>
       </div>
     </div>
   </section>
@@ -726,28 +719,28 @@
   <section class="slide s-bone" data-slide="4">
     <div class="inner scrollable">
       <div class="wrap">
-        <span class="kicker hl-orange" data-reveal>05 / مكتبة الفيديو</span>
-        <h2 class="big" data-reveal style="margin:6px 0 16px">شاهد وتعلّم<br>بخطوات واضحة</h2>
+        <span class="kicker hl-orange" data-reveal="">05 / مكتبة الفيديو</span>
+        <h2 class="big" data-reveal="" style="margin:6px 0 16px">شاهد وتعلّم<br>بخطوات واضحة</h2>
         <div class="quote-grid">
-          <div class="quote video-card" data-reveal>
+          <div class="quote video-card" data-reveal="">
             <span class="play">▶</span>
             <span class="mk">"</span>
             <p>طريقة فحص حساس الكرنك وقراءة الإشارة بالأوسيلوسكوب.</p>
             <span class="src">كهرباء السيارات · 18 دقيقة</span>
           </div>
-          <div class="quote video-card" data-reveal>
+          <div class="quote video-card" data-reveal="">
             <span class="play">▶</span>
             <span class="mk">"</span>
             <p>خطوات عملية لبرمجة المفتاح ومسح الأعطال بأمان.</p>
             <span class="src">برمجة السيارات · 24 دقيقة</span>
           </div>
-          <div class="quote video-card" data-reveal>
+          <div class="quote video-card" data-reveal="">
             <span class="play">▶</span>
             <span class="mk">"</span>
             <p>كيف تقرأ مخطط التوصيلات وتحدد نقطة انقطاع الدائرة.</p>
             <span class="src">مخططات كهرباء · 14 دقيقة</span>
           </div>
-          <div class="quote video-card" data-reveal>
+          <div class="quote video-card" data-reveal="">
             <span class="play">▶</span>
             <span class="mk">"</span>
             <p>تشخيص عطل التواصل بين وحدات السيارة عبر CAN Bus.</p>
@@ -756,12 +749,17 @@
         </div>
       </div>
       <!-- شريط موضوعات الفيديو -->
-      <div class="marquee thin bleed" data-reveal style="margin-top:12px;border-bottom:none;background:var(--ink);color:var(--lime)">
-        <div class="track">
-          <span>كهرباء السيارات</span><span class="s">&#10022;</span><span>برمجة المفاتيح</span><span class="s">&#10022;</span>
-          <span>قراءة المخططات</span><span class="s">&#10022;</span><span>شبكة CAN Bus</span><span class="s">&#10022;</span><span>تشخيص الأعطال</span><span class="s">&#10022;</span>
-          <span>كهرباء السيارات</span><span class="s">&#10022;</span><span>برمجة المفاتيح</span><span class="s">&#10022;</span>
-          <span>قراءة المخططات</span><span class="s">&#10022;</span><span>شبكة CAN Bus</span><span class="s">&#10022;</span><span>تشخيص الأعطال</span><span class="s">&#10022;</span>
+      <div class="marquee thin bleed" data-reveal="" style="margin-top:12px;border-bottom:none;background:var(--ink);color:var(--lime)">
+        <div class="track" data-base="
+          &lt;span&gt;كهرباء السيارات&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;✦&lt;/span&gt;&lt;span&gt;برمجة المفاتيح&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;✦&lt;/span&gt;
+          &lt;span&gt;قراءة المخططات&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;✦&lt;/span&gt;&lt;span&gt;شبكة CAN Bus&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;✦&lt;/span&gt;&lt;span&gt;تشخيص الأعطال&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;✦&lt;/span&gt;
+          &lt;span&gt;كهرباء السيارات&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;✦&lt;/span&gt;&lt;span&gt;برمجة المفاتيح&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;✦&lt;/span&gt;
+          &lt;span&gt;قراءة المخططات&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;✦&lt;/span&gt;&lt;span&gt;شبكة CAN Bus&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;✦&lt;/span&gt;&lt;span&gt;تشخيص الأعطال&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;✦&lt;/span&gt;
+        " data-fill-w="384" style="animation-duration: 14.6s;">
+          <span>كهرباء السيارات</span><span class="s">✦</span><span>برمجة المفاتيح</span><span class="s">✦</span>
+          <span>قراءة المخططات</span><span class="s">✦</span><span>شبكة CAN Bus</span><span class="s">✦</span><span>تشخيص الأعطال</span><span class="s">✦</span>
+          <span>كهرباء السيارات</span><span class="s">✦</span><span>برمجة المفاتيح</span><span class="s">✦</span>
+          <span>قراءة المخططات</span><span class="s">✦</span><span>شبكة CAN Bus</span><span class="s">✦</span><span>تشخيص الأعطال</span><span class="s">✦</span>
         </div>
       </div>
     </div>
@@ -771,7 +769,7 @@
   <section class="slide s-ink" data-slide="5">
     <div class="inner scrollable">
       <div class="wrap">
-        <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:14px;flex-wrap:wrap" data-reveal>
+        <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:14px;flex-wrap:wrap" data-reveal="">
           <div>
             <span class="kicker hl-orange">06 / الكورسات</span>
             <h2 class="big hl-lime" style="margin-top:6px">تعلم كهرباء<br>وبرمجة السيارات</h2>
@@ -780,13 +778,13 @@
         </div>
         <div class="tour-list" style="margin-top:18px">
           <div class="course-grid">
-            <article class="course" data-reveal><h3>أساسيات كهرباء السيارات</h3><p>الفولت، الأمبير، الفيوزات، الريليهات وقراءة المخططات من الصفر.</p><a class="btn fill" href="#">ابدأ الكورس</a></article>
-            <article class="course" data-reveal><h3>احتراف جهاز الفحص</h3><p>قراءة الأكواد، البيانات الحية واختبارات المشغلات بطريقة منهجية.</p><a class="btn fill" href="#">ابدأ الكورس</a></article>
-            <article class="course" data-reveal><h3>برمجة وحدات ECU</h3><p>مبادئ السوفتوير، النسخ الاحتياطي وإجراءات البرمجة الآمنة.</p><a class="btn fill" href="#">ابدأ الكورس</a></article>
-            <article class="course" data-reveal><h3>شبكة CAN Bus</h3><p>افهم الاتصال بين الوحدات وتتبع الأعطال باستخدام القياسات الصحيحة.</p><a class="btn fill" href="#">ابدأ الكورس</a></article>
+            <article class="course" data-reveal=""><h3>أساسيات كهرباء السيارات</h3><p>الفولت، الأمبير، الفيوزات، الريليهات وقراءة المخططات من الصفر.</p><a class="btn fill" href="#">ابدأ الكورس</a></article>
+            <article class="course" data-reveal=""><h3>احتراف جهاز الفحص</h3><p>قراءة الأكواد، البيانات الحية واختبارات المشغلات بطريقة منهجية.</p><a class="btn fill" href="#">ابدأ الكورس</a></article>
+            <article class="course" data-reveal=""><h3>برمجة وحدات ECU</h3><p>مبادئ السوفتوير، النسخ الاحتياطي وإجراءات البرمجة الآمنة.</p><a class="btn fill" href="#">ابدأ الكورس</a></article>
+            <article class="course" data-reveal=""><h3>شبكة CAN Bus</h3><p>افهم الاتصال بين الوحدات وتتبع الأعطال باستخدام القياسات الصحيحة.</p><a class="btn fill" href="#">ابدأ الكورس</a></article>
           </div>
         </div>
-        <p class="mono" data-reveal style="margin-top:14px">مسارات مرتبة للمبتدئ والفني المحترف مع تطبيقات واقعية.</p>
+        <p class="mono" data-reveal="" style="margin-top:14px">مسارات مرتبة للمبتدئ والفني المحترف مع تطبيقات واقعية.</p>
       </div>
     </div>
   </section>
@@ -795,7 +793,7 @@
   <section class="slide s-orange" data-slide="6">
     <div class="inner scrollable">
       <div class="wrap">
-        <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:14px;flex-wrap:wrap" data-reveal>
+        <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:14px;flex-wrap:wrap" data-reveal="">
           <div>
             <span class="kicker">07 / التحميل</span>
             <h2 class="big" style="margin-top:6px">مصادر جاهزة<br>لعملك اليومي</h2>
@@ -803,22 +801,22 @@
           <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
             <div class="gal-nav">
               <button class="gal-arrow" id="galPrev" aria-label="Previous photo">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M15 5l-7 7 7 7"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M15 5l-7 7 7 7"></path></svg>
               </button>
               <button class="gal-arrow" id="galNext" aria-label="Next photo">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M9 5l7 7-7 7"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M9 5l7 7-7 7"></path></svg>
               </button>
             </div>
             <a class="btn" href="#">كل التحميلات</a>
           </div>
         </div>
-        <div class="media-grid" data-reveal>
-          <figure class="media-card"><img src="profile-tech.jpg" onerror="this.onerror=null;this.src='pic-01.jpg'" alt="فني يعمل على برمجة السيارات" loading="lazy"><figcaption>مختبر خندقاوي كار<small>برمجة وتشخيص متقدم</small></figcaption></figure>
-          <figure class="media-card"><img src="ecu-vonix.jpg" onerror="this.onerror=null;this.src='pic-02.jpg'" alt="برنامج ECU Vonix" loading="lazy"><figcaption>ECU Vonix<small>حلول برمجة الوحدات</small></figcaption></figure>
-          <figure class="media-card"><img src="winols.jpg" onerror="this.onerror=null;this.src='pic-03.jpg'" alt="برنامج WinOLS لتحليل خرائط المحرك" loading="lazy"><figcaption>WinOLS<small>تحليل خرائط المحرك</small></figcaption></figure>
-          <figure class="media-card"><img src="coding-tech.jpg" onerror="this.onerror=null;this.src='pic-04.jpg'" alt="برمجة وتطوير أنظمة السيارات" loading="lazy"><figcaption>كود وتشخيص<small>تقنية السيارات الحديثة</small></figcaption></figure>
+        <div class="media-grid" data-reveal="">
+          <figure class="media-card"><img src="pic-01.jpg" onerror="this.onerror=null;this.src='pic-01.jpg'" alt="فني يعمل على برمجة السيارات" loading="lazy"><figcaption>مختبر خندقاوي كار<small>برمجة وتشخيص متقدم</small></figcaption></figure>
+          <figure class="media-card"><img src="pic-02.jpg" onerror="this.onerror=null;this.src='pic-02.jpg'" alt="برنامج ECU Vonix" loading="lazy"><figcaption>ECU Vonix<small>حلول برمجة الوحدات</small></figcaption></figure>
+          <figure class="media-card"><img src="pic-03.jpg" onerror="this.onerror=null;this.src='pic-03.jpg'" alt="برنامج WinOLS لتحليل خرائط المحرك" loading="lazy"><figcaption>WinOLS<small>تحليل خرائط المحرك</small></figcaption></figure>
+          <figure class="media-card"><img src="pic-04.jpg" onerror="this.onerror=null;this.src='pic-04.jpg'" alt="برمجة وتطوير أنظمة السيارات" loading="lazy"><figcaption>كود وتشخيص<small>تقنية السيارات الحديثة</small></figcaption></figure>
         </div>
-        <div class="download-list" data-reveal>
+        <div class="download-list" data-reveal="">
           <a class="download-item" href="https://www.autel.com/download" target="_blank" rel="noopener"><span><strong>تعريفات أجهزة الفحص</strong><small>Windows · المصدر الرسمي</small></span><span class="sticker">تحميل ↗</span></a>
           <a class="download-item" href="https://www.allschematics.com/" target="_blank" rel="noopener"><span><strong>مخططات التوصيل</strong><small>PDF · مكتبة مخططات</small></span><span class="sticker o">فتح ↗</span></a>
           <a class="download-item" href="https://www.autodata-group.com/" target="_blank" rel="noopener"><span><strong>بيانات الصيانة</strong><small>Web · معلومات فنية</small></span><span class="sticker">فتح ↗</span></a>
@@ -832,26 +830,28 @@
   <section class="slide s-ink" data-slide="7">
     <div class="inner scrollable">
       <div class="wrap">
-        <span class="kicker hl-orange" data-reveal>08 / تواصل معنا</span>
-        <h2 class="big hl-lime" data-reveal style="margin:6px 0 16px">خندقاوي كار<br>معك في كل عطل</h2>
+        <span class="kicker hl-orange" data-reveal="">08 / تواصل معنا</span>
+        <h2 class="big hl-lime" data-reveal="" style="margin:6px 0 16px">خندقاوي كار<br>معك في كل عطل</h2>
         <div class="contact-grid">
-          <div class="cc" data-reveal><div class="k">واتساب 01</div><div class="v"><a href="https://wa.me/249923107771">+249 923 107 771</a></div></div>
-          <div class="cc" data-reveal><div class="k">واتساب 02</div><div class="v"><a href="https://wa.me/249912422580">+249 912 422 580</a></div></div>
-          <div class="cc" data-reveal><div class="k">واتساب 03</div><div class="v"><a href="https://wa.me/249122256198">+249 122 256 198</a></div></div>
-          <div class="cc" data-reveal><div class="k">البريد الإلكتروني</div><div class="v"><a href="mailto:makyhassan@gmail.com">makyhassan@gmail.com</a></div></div>
-          <div class="cc" data-reveal><div class="k">فيسبوك</div><div class="v"><a href="https://web.facebook.com/mky.khndqawy" target="_blank" rel="noopener">صفحة خندقاوي كار</a></div></div>
-          <div class="cc youtube-card" data-reveal><img class="channel-logo" src="channel-logo.png" onerror="this.onerror=null;this.src='pic-01.jpg'" alt="شعار قناة خندقاوي"><div class="channel-copy"><div class="k">يوتيوب</div><div class="v"><a href="https://www.youtube.com/@Kandgawy" target="_blank" rel="noopener">قناة خندقاوي كار</a></div></div></div>
-          <div class="cc" data-reveal><div class="k">المجتمع</div><div class="v">أسئلة · خبرات · تحديثات</div></div>
+          <div class="cc" data-reveal=""><div class="k">واتساب 01</div><div class="v"><a href="https://wa.me/249923107771">+249 923 107 771</a></div></div>
+          <div class="cc" data-reveal=""><div class="k">واتساب 02</div><div class="v"><a href="https://wa.me/249912422580">+249 912 422 580</a></div></div>
+          <div class="cc" data-reveal=""><div class="k">واتساب 03</div><div class="v"><a href="https://wa.me/249122256198">+249 122 256 198</a></div></div>
+          <div class="cc" data-reveal=""><div class="k">البريد الإلكتروني</div><div class="v"><a href="mailto:makyhassan@gmail.com">makyhassan@gmail.com</a></div></div>
+          <div class="cc" data-reveal=""><div class="k">فيسبوك</div><div class="v"><a href="https://web.facebook.com/mky.khndqawy" target="_blank" rel="noopener">صفحة خندقاوي كار</a></div></div>
+          <div class="cc youtube-card" data-reveal=""><img class="channel-logo" src="pic-01.jpg" onerror="this.onerror=null;this.src='pic-01.jpg'" alt="شعار قناة خندقاوي"><div class="channel-copy"><div class="k">يوتيوب</div><div class="v"><a href="https://www.youtube.com/@Kandgawy" target="_blank" rel="noopener">قناة خندقاوي كار</a></div></div></div>
+          <div class="cc" data-reveal=""><div class="k">وكيل أوتيل ليبيا</div><div class="v"><a href="https://web.facebook.com/photo/?fbid=122150898321120425&amp;set=a.122103216435120425" target="_blank" rel="noopener">عرض الصفحة على فيسبوك ↗</a></div></div>
+          <div class="cc" data-reveal=""><div class="k">المجتمع</div><div class="v">أسئلة · خبرات · تحديثات</div></div>
         </div>
-        <div class="socials" data-reveal>
+        <div class="socials" data-reveal="">
           <span class="tag">@khandqawycar</span>
           <span class="tag">خندقاوي كار</span>
           <span class="tag">YouTube / Kandgawy</span>
           <span class="tag">كل جديد للسيارات</span>
         </div>
-        <div class="btnrow" data-reveal style="margin-top:18px">
+        <div class="btnrow" data-reveal="" style="margin-top:18px">
           <a class="btn fill" href="https://wa.me/249923107771">راسلنا الآن</a>
           <a class="btn" href="https://www.youtube.com/@Kandgawy" target="_blank" rel="noopener">شاهد القناة</a>
+          <a class="btn" href="https://web.facebook.com/photo/?fbid=122150898321120425&amp;set=a.122103216435120425" target="_blank" rel="noopener">وكيل أوتيل ليبيا</a>
           <a class="btn" href="#" data-goto="5">شاهد الكورسات</a>
         </div>
       </div>
@@ -862,24 +862,24 @@
   <section class="slide s-ink" data-slide="8">
     <div class="inner scrollable">
       <div class="wrap">
-        <span class="kicker hl-orange" data-reveal>09 / مجتمع خندقاوي</span>
-        <h2 class="big hl-lime" data-reveal style="margin:6px 0 8px">كن جزءًا<br>من الخبرة</h2>
-        <p class="lead" data-reveal style="margin-bottom:16px">شارك تجربتك، اطرح سؤالك، وتابع آخر أخبار البرمجة والصيانة.</p>
+        <span class="kicker hl-orange" data-reveal="">09 / مجتمع خندقاوي</span>
+        <h2 class="big hl-lime" data-reveal="" style="margin:6px 0 8px">كن جزءًا<br>من الخبرة</h2>
+        <p class="lead" data-reveal="" style="margin-bottom:16px">شارك تجربتك، اطرح سؤالك، وتابع آخر أخبار البرمجة والصيانة.</p>
         <div class="promo-grid">
-          <a class="promo" href="https://templatemo.com" target="_blank" rel="nofollow noopener" data-reveal>
+          <a class="promo" href="https://templatemo.com" target="_blank" rel="nofollow noopener" data-reveal="">
             <span class="tm">مجتمع 01</span><span class="nm">سؤال اليوم</span>
             <span class="ds">إجابات عملية من فنيين ومختصين في المجال.</span>
           </a>
-          <a class="promo" href="https://templatemo.com" target="_blank" rel="nofollow noopener" data-reveal>
+          <a class="promo" href="https://templatemo.com" target="_blank" rel="nofollow noopener" data-reveal="">
             <span class="tm">مجتمع 02</span><span class="nm">تجارب فنيين</span>
             <span class="ds">قصص وحلول حقيقية من ورش السيارات.</span>
           </a>
-          <a class="promo" href="https://templatemo.com" target="_blank" rel="nofollow noopener" data-reveal>
+          <a class="promo" href="https://templatemo.com" target="_blank" rel="nofollow noopener" data-reveal="">
             <span class="tm">مجتمع 03</span><span class="nm">آخر التحديثات</span>
             <span class="ds">جديد الأجهزة والبرامج والدورات أولًا بأول.</span>
           </a>
         </div>
-        <div class="btnrow" data-reveal style="margin-top:18px">
+        <div class="btnrow" data-reveal="" style="margin-top:18px">
           <a class="btn fill" href="https://web.facebook.com/mky.khndqawy" target="_blank" rel="noopener">تابعنا على فيسبوك</a>
           <a class="btn" href="#" data-goto="0">العودة للبداية</a>
         </div>
@@ -893,11 +893,11 @@
 <footer class="footerbar">
   <span class="foot-credit"><span class="fc-long">خندقاوي كار · </span>برمجة وصيانة السيارات</span>
   <div class="nav-pills">
-    <button class="pill" id="prevBtn" aria-label="Previous slide">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M15 5l-7 7 7 7"/></svg>
+    <button class="pill" id="prevBtn" aria-label="Previous slide" disabled="">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M15 5l-7 7 7 7"></path></svg>
     </button>
     <button class="pill" id="nextBtn" aria-label="Next slide">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M9 5l7 7-7 7"/></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M9 5l7 7-7 7"></path></svg>
     </button>
   </div>
 </footer>
@@ -905,8 +905,8 @@
 <!-- ===================== POPUP NAV ===================== -->
 <nav class="nav-pop" id="navPop" aria-hidden="true">
   <div class="nav-head">
-    <a href="./index.html" class="mark" data-goto="0" aria-label="KANDGAWY CAR - الصفحة الرئيسية"><img class="channel-logo" src="channel-logo.png" onerror="this.onerror=null;this.src='pic-01.jpg'" alt="شعار KANDGAWY CAR"><span class="brand-name"><span>KANDGAWY <b>CAR</b></span><span class="brand-sub">AUTO DIAGNOSTICS</span></span></a>
-    <button class="x" id="navClose" aria-label="إغلاق القائمة">إغلاق &#10005;</button>
+    <a href="./index.html" class="mark" data-goto="0" aria-label="KANDGAWY CAR - الصفحة الرئيسية"><img class="channel-logo" src="pic-01.jpg" onerror="this.onerror=null;this.src='pic-01.jpg'" alt="شعار KANDGAWY CAR"><span class="brand-name"><span>KANDGAWY <b>CAR</b></span><span class="brand-sub">AUTO DIAGNOSTICS</span></span></a>
+    <button class="x" id="navClose" aria-label="إغلاق القائمة">إغلاق ✕</button>
   </div>
   <ul class="nav-list">
     <li><a href="#" data-goto="0"><span class="ix">01</span>الرئيسية</a></li>
@@ -1177,5 +1177,6 @@
   window.addEventListener("resize", debounce(fillMarquees, 200));
 })();
 </script>
-</body>
-</html>
+
+
+</body></html>
